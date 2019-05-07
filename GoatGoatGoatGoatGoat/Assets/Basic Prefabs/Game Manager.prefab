@@ -1,0 +1,84 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1940607227563050}
+  m_IsPrefabAsset: 1
+--- !u!1 &1940607227563050
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4413246040075226}
+  - component: {fileID: 114585674794796626}
+  m_Layer: 0
+  m_Name: Game Manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4413246040075226
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1940607227563050}
+  m_LocalRotation: {x: -0, y: 0.79284155, z: -0, w: 0.6094279}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114585674794796626
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1940607227563050}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7d5869912c9ab5448ade92c9485b0f1e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gamePaused: 0
+  isVictorious: 0
+  nextLevelName: 03
+  pauseScreen: {fileID: 0}
+  pausedText: {fileID: 0}
+  easterCredit: {fileID: 0}
+  background: {fileID: 0}
+  disableIngameControls: 0
+  disableAiming: 0
+  disableEating: 0
+  disableGiving: 0
+  disableInteraction: 0
+  disableMovement: 0
+  hideGoatUI: 0
+  hideCrosshair: 0
+  hideFoodIndicator: 0
+  hideInteractionIndicator: 0
+  preplacedObjects:
+  - {fileID: 1992060666149466, guid: c00716126a4f1a1439696eb99fa268b5, type: 2}
+  - {fileID: 1807001285941306, guid: f6cfb88838c82e342879a76786fde817, type: 2}
+  victoryCamera: {fileID: 1693733117623868, guid: 94457406a451176439ce0b1de3527ab2,
+    type: 2}
+  victoryScreen: {fileID: 1731306493318612, guid: 11232f289f28b7543bdebcc3d3ff0c6e,
+    type: 2}
+  messageObject: {fileID: 1500946999598082, guid: 5ce541c8033b2db4f8e62a4799a6fe71,
+    type: 2}
+  victoriousFirework: {fileID: 1760540057876854, guid: 43df6b6780f7ad045bdd5efee408f764,
+    type: 2}
+  deadExplosion: {fileID: 1121192042590650, guid: 00d6d8f27b0079f408fd1af2bcbad1bb,
+    type: 2}
+  dedProfile: {fileID: 11400000, guid: 2a1bbc4aa261be74ea402a3bbacb6191, type: 2}
